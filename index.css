@@ -1,0 +1,147 @@
+.body{
+    background-color: aliceblue !important;
+}
+
+.blue-design {
+    position: absolute;
+    top: -411px;
+    left: -7%;
+    width: 50%;
+    height: 20%;
+    background-color: #3ca8d4e6;
+    transform: rotate(-2deg);
+    border-bottom-right-radius: 98%;
+    border-top-right-radius: 56%;
+}
+
+.small-circle {
+    width: 65px;
+    height: 147px;
+    background-color: #197cb4;
+    border-radius: 9%;
+    transform: rotate(-160deg);
+    margin-top: 10%;
+    margin-left: 9%;
+}
+.circle {
+    background: linear-gradient(135deg, #ccd4d9, #60afde 60%, #6fbfee);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 20%;
+    margin-left: 20px;
+}
+.subheader {
+    font-size: 40px;
+    color: #1f3a50;
+  margin-left: 40%;
+}
+
+@media (max-width: 768px) {
+  .circle {
+      width: 37px; 
+      height: 37px;
+      margin-left: 15px;
+      /* margin-top: 0%; */
+  }
+
+  .blue-design {
+      top: -26%;
+      left: -10%;
+  }
+
+  .small-circle{
+    width: 25px;
+    height: 149px;
+    background-color: #197cb4;
+    border-radius: 9%;
+    transform: rotate(-160deg);
+    /* margin-top: 18%; */
+    margin-left: 18%;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .circle {
+      width: 40px; 
+      height: 40px;
+      margin-left: 10px;
+      /* margin-top: 10%; */
+  }
+  .small-circle{
+    width: 25px;
+    height: 100px;
+    background-color: #197cb4;
+    border-radius: 9%;
+    transform: rotate(-160deg);
+    margin-top: 8%;
+    margin-left: 5%;
+  }
+  .blue-design {
+      top: -22%;
+      left: -5%;
+      bottom: 50px;
+  }
+}
+
+
+.feature-card {
+    background-color: #173755;
+    color: white;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    min-height: 288px; 
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    position: relative;
+  }
+
+  .row .col-md-4 {
+    display: flex;
+    align-items: stretch;
+}
+  
+.faded-background {
+  background-color: #354c62bf;
+}
+.custom-color{
+    color: #1a3d5d;
+}
+
+
+  .feature-text {
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 30px;
+  }
+
+ 
+  .feature-text1 {
+    margin-top: 34px;
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 15px;
+    position: relative;
+    padding-left: 1.5em; 
+  }
+
+.feature-text1::before {
+    content: "•"; 
+    position: absolute;
+    left: 15px; 
+    color: #333; 
+    font-size: 1.2em;
+    top: 0; 
+}
+
+.contact-text {
+    font-size: 1.2rem;
+    margin-bottom: 29px;
+    margin-top: -10px;
+    display: flex;
+    color: #546a80;
+    align-items: center;
+    justify-content: center;
+  }
